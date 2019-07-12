@@ -1,0 +1,59 @@
+.promo{
+    width: 100vw;
+    height: 400px;
+    border: solid black;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    padding: 5px;
+    font-size: 20pt;
+    margin-left: 42%;
+    margin-top: 13%;
+}
+.btn:hover{
+    background-color: royalblue;
+    color: white
+}
+.offer1{
+    /* border: solid  rgb(155, 151, 151); */
+    width: 300px;
+    height: 270px;
+    margin-left: 8%;
+    background-color: rgb(233, 227, 227);
+    border-radius: 5px;
+    box-shadow: white 5px 2px;
+}
+.offer2{
+    /* border: solid  rgb(155, 151, 151); */
+    width: 300px;
+    height: 270px;
+    margin-left: 8%;
+    background-color: rgb(233, 227, 227);
+    border-radius: 5px;
+    box-shadow: white 5px 2px;
+}
+h3{
+    color: #337AFF;
+    font-size: 20pt;
+    text-shadow: rgb(155, 151, 151) 2px 1px ;
+    margin-left: 12%;
+}
+ol{
+   margin-top: 2%;
+}
+li{
+    margin-top: 5px;
+    list-style: none ;
+    margin-left: 18%;
+    font-size: 15pt;
+}
+.list2{
+    margin-top: 5px;
+    list-style: none ;
+    margin-left: 11%;
+    font-size: 15pt;
+}
