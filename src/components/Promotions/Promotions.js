@@ -28,9 +28,11 @@ const Promotions=()=>{
 
     <div>
         <ol className="offer3">
-        <h3>Special Skills</h3>
+        <h3 id="skills">Special Skills</h3>
         <li className="list3">Highway Lessons</li>
-        <li className="list3">Road Test Appointment</li>
+        <li className="list3">Evaluation Lessons</li>
+        <li className="list3">Lane Changing Lessons</li>
+
         {/* <img src={require('../../images/save.png')} alt="savings_photo"/> */}
 
         </ol>
