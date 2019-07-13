@@ -24,8 +24,8 @@ const Contact =()=>{
       </p>
     </div>
     <div className="field">
-      <p className="control is-expanded has-icons-left has-icons-right">
-        <input className="input is-info" type="lastName" placeholder="Last Name"  />
+      <p className="control is-expanded  has-icons-right">
+        <input className="input " type="lastName" placeholder="Last Name"  />
       </p>
     </div>
   </div>
