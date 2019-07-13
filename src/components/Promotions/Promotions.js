@@ -6,10 +6,11 @@ import '../Promotions.css'
 const Promotions=()=>{
     return (
         <div className="promo">
+        <div className="offer-container">
     <div>
         <ol className="offer1">
         <h3>Individual Lessons</h3>
-        <li>45 Mins Per Lesson</li>
+        <li className="list1">45 Mins Per Lesson</li>
         <img src={require('../../images/road.jpg')} alt="car_photo"/>
         </ol>
        
@@ -31,17 +32,19 @@ const Promotions=()=>{
         <h3 id="skills">Special Skills</h3>
         <li className="list3">Highway Lessons</li>
         <li className="list3">Evaluation Lessons</li>
-        <li className="list3">Lane Changing Lessons</li>
+        {/* <li className="list3">Lane Changing Lessons</li> */}
 
-        {/* <img src={require('../../images/save.png')} alt="savings_photo"/> */}
+        <img className="beware" src={require('../../images/beware.jpeg')} alt="caution_photo"/>
 
         </ol>
        
     </div>
 
-       {/* <button className="btn">
+  
+        </div>
+         <button className="btn">
         Learn More 
-        </button> */}
+        </button> 
         </div>
         )
 }

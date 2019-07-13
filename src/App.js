@@ -1,18 +1,30 @@
 import React from 'react';
-import './App.css';
+
 import NavBar from './components/NavBar/NavBar'
-import SlideShow from './components/SlideShow/SlideShow'
-import Promotions from './components/Promotions/Promotions';
 import Footer from './components/Footer/Footer';
+import { Switch, Route } from 'react-router'
+
+import Contact from './components/Contact/Contact'
+import Home from './components/Home/Home';
+
+
 
 function App() {
   return (
     <div className="App">
+
     <NavBar />
-    <SlideShow />
-    <Promotions />
-    <Footer />
+<Switch>
+<Route exact path="/" component={Home} />
+
+<Route exact path="/contact" component={Contact} />
+
+</Switch>
+
+<Footer/>
+  
       </div>
+      
   );
 }
 

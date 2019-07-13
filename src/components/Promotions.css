@@ -1,22 +1,26 @@
 .promo{
     width: 100vw;
-    height: 400px;
+    height: 500px;
     border: solid black;
     background-color: orange;
-    display: flex;
-    justify-content: space-evenly;
+   
 }
 .btn{
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
     padding: 5px;
     font-size: 20pt;
     margin-left: 42%;
-    margin-top: 13%;
+    margin-top: 4%;
 }
 .btn:hover{
     background-color: royalblue;
     color: white
+}
+.offer-container{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 .offer1{
     /* border: solid  rgb(155, 151, 151); */
@@ -54,7 +58,7 @@ h3{
 ol{
    margin-top: 2%;
 }
-li{
+.list1{
     margin-top: 5px;
     list-style: none ;
     margin-left: 18%;
