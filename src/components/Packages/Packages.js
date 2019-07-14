@@ -1,9 +1,10 @@
 import React from 'react';
-
+import '../Packages.css'
 
 const Packages =()=>{
     return(
-        <table class="table">
+        <div className="table-container">
+        <table className="table">
         <thead>
           <tr>
             <th scope="col">Driving Lessons</th>
@@ -59,6 +60,39 @@ const Packages =()=>{
          
         </tbody>
       </table>
+
+        <h2 id="special">Special Skills</h2>
+      <div>
+      <table className="table">
+        <thead>
+          <tr>
+            <th scope="col">Highway Lessons<br></br>
+            90 mins per lesson</th>
+            <th scope="col">Evaluation Lessons <br></br>
+            45 mins per lesson</th>
+            <th scope="col">Lane Changing Lessons<br></br>
+            90 mins per lesson</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>$150</td>
+            <td>$100</td>
+            <td>$100</td>
+          </tr>
+          
+          </tbody>
+          </table>
+      </div>
+
+      <div className="notification is-warning">
+        <button className="delete"></button>
+        <strong>Note:</strong> An additional fee of $50 will be added for any road test taken outside of Brooklyn.
+         , plus toll fess if applicable. Any lesson cancellation must be done <strong>24 hours in advance</strong>.<p id="finePrint">
+           The above prices are subject to change at anytime without notice.  
+         </p>
+    </div>
+      </div>
     )
 }
 

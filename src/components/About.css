@@ -1,0 +1,16 @@
+
+.fact{
+    font-size: 25pt;
+    color: #337AFF;
+}
+.fact-info{
+    font-size: 18pt;
+    text-align: justify;
+}
+
+.facts{
+    width: 70vw;
+    height: 70vh;
+    margin-left: 17%;
+  
+}
