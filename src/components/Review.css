@@ -1,0 +1,50 @@
+.quote{
+    width:500px;
+    border: solid black;
+    height: 600px;
+    background-color: rgba(0, 38, 255, 0.973);
+    color: aliceblue;
+}
+#driver-photo1{
+    border-radius:50%; 
+    width: 130px;
+    height: 120px;
+    background-image: url('../images/driver1.jpg');
+    background-size: cover;
+    margin-left: 35%;
+}
+
+#driver-photo2{
+    border-radius:50%; 
+    width: 130px;
+    height: 120px;
+    background-image: url('../images/driver2.jpg');
+    background-size: cover;
+    margin-left: 35%;
+}
+#driver-photo3{
+    border-radius:50%; 
+    width: 130px;
+    height: 120px;
+    background-image: url('../images/driver3.jpg');
+    background-size: cover;
+    margin-left: 35%;
+}
+.review{
+    font-size: 17pt;
+    padding: 10%;
+    text-align: justify;
+}
+.quote-logo{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 90px;
+}
+.driver-name{
+    margin-left: 43%;
+    margin-top: 10px;
+    font-size: 15pt;
+}
+.reviewContainer{
+    display: flex;
+}

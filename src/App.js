@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact'
 import Home from './components/Home/Home';
 import Packages from './components/Packages/Packages';
 import About from './components/About/About';
+import Review from './components/Reviews/Review';
 
 
 
@@ -22,6 +23,7 @@ function App() {
 <Route exact path="/contact" component={Contact} />
 <Route exact path="/package-deals" component={Packages} />
 <Route exact path="/about" component={About} />
+<Route exact path="/reviews" component={Review} />
 
 
 </Switch>
