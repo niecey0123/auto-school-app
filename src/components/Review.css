@@ -12,6 +12,8 @@
     background-image: url('../images/driver1.jpg');
     background-size: cover;
     margin-left: 35%;
+    margin-top: 8%;
+
 }
 
 #driver-photo2{
@@ -41,8 +43,8 @@
     height: 90px;
 }
 .driver-name{
-    margin-left: 43%;
-    margin-top: 10px;
+    margin-left: 42%;
+    margin-top: 5px;
     font-size: 15pt;
 }
 .reviewContainer{

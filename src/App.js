@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {Component} from 'react';
 
 import NavBar from './components/NavBar/NavBar'
 import Footer from './components/Footer/Footer';
@@ -12,7 +12,14 @@ import Review from './components/Reviews/Review';
 
 
 
-function App() {
+  class App  extends Component {
+    state = { 
+      autoSchool:{
+        name: 'Utopia Auto School', address: '1722 Flatbush Ave',city:'Brooklyn',state:'New York',number:'(646) 479-1666',email:'utopiaautoschool@gmail.com'
+      }
+     }
+
+    render() { 
   return (
     <div className="App">
 
@@ -23,7 +30,7 @@ function App() {
 <Route exact path="/contact" component={Contact} />
 <Route exact path="/package-deals" component={Packages} />
 <Route exact path="/about" component={About} />
-<Route exact path="/reviews" component={Review} />
+<Route exact path="/reviews" component={Review} school={this.state.autoSchool} />
 
 
 </Switch>
@@ -33,6 +40,6 @@ function App() {
       </div>
       
   );
+  }
 }
-
 export default App;

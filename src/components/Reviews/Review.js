@@ -1,8 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../Review.css'
 
 
-const Review = () => {
+class Review extends Component {
+    render(){
+        const school = this.props
+ console.log(school)
+
     return (
         <div className="reviews">
        <section className="section">
@@ -31,16 +35,20 @@ const Review = () => {
              <div className="quote">
             <img className=" quote-logo" src={require('../../images/quotes.png')} alt="quotation"/>
             <br></br>
-            <p className="review">"The instructors were soooo amazing. I took 8 lessons and I can definetly say it was worth every dollar. I was afraid because I've had bad experiences in the past. My overall experience has been great, Thanks!"</p>
+            <p className="review">" I took 8 lessons and I can definetly say it was worth every dollar. I was afraid because I've had bad experiences in the past. My overall experience has been great, Thanks!"</p>
             <div id="driver-photo3"></div>
             <h4 className="driver-name">Kyrstal W.</h4>
             </div>
 
             </div> 
 
+        <span>Check Out Our Location</span>
+
+        <li>{school.name}</li>
 
         </div>
     )
+}
 }
 
 export default Review
